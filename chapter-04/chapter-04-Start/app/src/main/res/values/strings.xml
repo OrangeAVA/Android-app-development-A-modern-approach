@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Quiz Mania</string>
+    <string name="title_quizzes" translatable="false">Quizzes</string>
+    <string name="title_attempts" translatable="false">Attempts</string>
+    <string name="title_settings" translatable="false">Settings</string>
+    <string name="sort_by" translatable="false">Sort by:</string>
+    <string name="txt_score" translatable="false">Score</string>
+    <string name="txt_date" translatable="false">Date</string>
+    <string name="txt_title" translatable="false">Title</string>
+    <string name="attempt_result" translatable="false">Attempted %1$s out of %2$s questions\ncorrect: %3$s, skipped: %4$s, incorrect: %5$s</string>
+    <string name="attempt_score" translatable="false">Score: %1$s/%2$s (%3$s%%)</string>
+    <string name="my_attempts" translatable="false">My Attempts</string>
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="show_timer" translatable="false">Show quiz timer</string>
+    <string name="show_timer_summary" translatable="false">Show timer when attempting a quiz</string>
+    <string name="show_notification">Show quiz notification</string>
+    <string name="show_notification_summary">Show persistent notification when a quiz is in progress</string>
+    <string name="clear_attempts" translatable="false">Clear attempts</string>
+    <string name="clear_attempts_summary" translatable="false">Clears all your attempts from the app and the cloud</string>
+    <string name="spread_word" translatable="false">Spread the word</string>
+    <string name="rate_playstore" translatable="false">Rate us on Google playstore</string>
+    <string name="spread_word_summary" translatable="false">Share the app with your connections</string>
+    <string name="user_image">User image</string>
+    <string name="app_version">app version</string>
+    <string name="app_mode">Dark Mode</string>
+    <string name="app_version_settings">App version: %1$s</string>
+    <string name="settings_login" translatable="false">Login</string>
+    <string name="settings_login_summary" translatable="false">click here to login</string>
+    <string name="attempted_on">Timestamp: %1$s</string>
+</resources>

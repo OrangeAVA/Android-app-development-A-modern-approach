@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Mania</string>
+    <string name="title_quizzes" translatable="false">प्रश्नोत्तरी</string>
+    <string name="title_attempts" translatable="false">कोशिशें</string>
+    <string name="title_settings" translatable="false">सेटिंग्स</string>
+    <string name="sort_by" translatable="false">क्रमबद्ध करें:</string>
+    <string name="txt_score" translatable="false">स्कोर</string>
+    <string name="txt_date" translatable="false">तारीख</string>
+    <string name="txt_title" translatable="false">शीर्षक</string>
+    <string name="attempt_result" translatable="false">प्रयास किया: %1$s में से %2$s प्रश्नों में\nसही: %3$s, छोड़े: %4$s, गलत: %5$s</string>
+    <string name="attempt_score" translatable="false">स्कोर: %1$s/%2$s (%3$s%%)</string>
+    <string name="my_attempts" translatable="false">मेरे प्रयास</string>
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">संदेश</string>
+    <string name="sync_header">सिंक</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">आपकी साइनेचर</string>
+    <string name="reply_title">डिफ़ॉल्ट जवाब क्रिया</string>
+
+    <!-- Sync Preferences -->
+    <string name="show_timer" translatable="false">क्विज़ टाइमर</string>
+    <string name="show_timer_summary" translatable="false">क्विज़ का प्रयास करते समय टाइमर दिखाएं</string>
+    <string name="show_notification">क्विज़ नोटिफिकेशन दिखाएं</string>
+    <string name="show_notification_summary">क्विज़ प्रगति में एक स्थिर नोटिफिकेशन दिखाएं</string>
+    <string name="clear_attempts" translatable="false">कोशिशें डिलीट करें</string>
+    <string name="clear_attempts_summary" translatable="false">ऐप से और क्लाउड से अपने सभी कोशिशों को डिलीट करता है</string>
+    <string name="spread_word" translatable="false">प्रचार कीजिये</string>
+    <string name="rate_playstore" translatable="false">हमें Google Playstore पर रेटिंग दें</string>
+    <string name="spread_word_summary" translatable="false">ऐप को अपने संबंधितों के साथ साझा करें</string>
+    <string name="user_image">उपयोगकर्ता छवि</string>
+    <string name="app_version">संस्करण</string>
+    <string name="app_mode">डार्क मोड</string>
+    <string name="app_version_settings">ऐप संस्करण: %1$s</string>
+    <string name="settings_login" translatable="false">लॉगिन</string>
+    <string name="settings_login_summary" translatable="false">लॉगिन के लिए यहां क्लिक करें</string>
+    <string name="attempted_on">समय: %1$s</string>
+</resources>
