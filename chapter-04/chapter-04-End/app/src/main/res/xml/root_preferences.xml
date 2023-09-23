@@ -21,11 +21,15 @@
         app:summary="@string/show_notification_summary"
         app:title="@string/show_notification" />
 
-    <SwitchPreferenceCompat
-        app:key="key_dark_mode"
-        app:layout="@layout/item_switch_preference"
+    <ListPreference
+        android:entries="@array/mode_entries"
+        android:entryValues="@array/mode_entry_values"
+        app:key="key_app_mode"
+        app:layout="@layout/item_preference"
         app:persistent="true"
-        app:title="@string/app_mode" />
+        app:defaultValue="system"
+        app:summary="Current mode: %s"
+        app:title="Select mode" />
 
     <Preference
         app:key="key_clear_attempts"
@@ -56,9 +60,9 @@
     </Preference>
 
     <Preference
-        app:enabled="false"
         app:allowDividerAbove="false"
         app:allowDividerBelow="false"
+        app:enabled="false"
         app:selectable="false" />
 
     <org.drulabs.quizmania.ui.settings.AppVersionPreference

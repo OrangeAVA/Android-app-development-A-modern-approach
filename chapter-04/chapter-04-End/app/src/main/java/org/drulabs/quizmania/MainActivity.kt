@@ -11,6 +11,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.preference.PreferenceManager
 import org.drulabs.quizmania.databinding.ActivityMainBinding
+import org.drulabs.quizmania.ui.settings.UserSettingsFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -36,18 +37,5 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-
-        checkAndUpdateUIMode()
-    }
-
-    private fun checkAndUpdateUIMode() {
-        val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
-        val isDarkMode = sharedPreferences.getBoolean("key_dark_mode", false)
-        AppCompatDelegate.setDefaultNightMode(
-            if (isDarkMode)
-                AppCompatDelegate.MODE_NIGHT_YES
-            else
-                AppCompatDelegate.MODE_NIGHT_NO
-        )
     }
 }

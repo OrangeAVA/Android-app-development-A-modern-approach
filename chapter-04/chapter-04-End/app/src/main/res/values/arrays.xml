@@ -9,4 +9,16 @@
         <item>reply</item>
         <item>reply_all</item>
     </string-array>
+
+    <string-array name="mode_entry_values">
+        <item>dark</item>
+        <item>light</item>
+        <item>system</item>
+    </string-array>
+
+    <string-array name="mode_entries">
+        <item>Dark</item>
+        <item>Light</item>
+        <item>System Default</item>
+    </string-array>
 </resources>
