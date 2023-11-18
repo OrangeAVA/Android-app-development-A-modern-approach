@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Mania</string>
+    <string name="title_quizzes" translatable="false">Quiz</string>
+    <string name="title_attempts" translatable="false">Tentatives</string>
+    <string name="title_settings" translatable="false">Paramètres</string>
+    <string name="sort_by" translatable="false">Trier par :</string>
+    <string name="txt_score" translatable="false">Score</string>
+    <string name="txt_date" translatable="false">Date</string>
+    <string name="txt_title" translatable="false">Titre</string>
+    <string name="attempt_result" translatable="false">Tentative : %1$s sur %2$s questions\ncorrectes : %3$s, sautées : %4$s, incorrectes : %5$s</string>
+    <string name="attempt_score" translatable="false">Score : %1$s/%2$s (%3$s%%)</string>
+    <string name="my_attempts" translatable="false">Mes Tentatives</string>
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header">Synchronisation</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Votre signature</string>
+    <string name="reply_title">Action de réponse par défaut</string>
+
+    <!-- Sync Preferences -->
+    <string name="show_timer" translatable="false">Afficher le minuteur du quiz</string>
+    <string name="show_timer_summary" translatable="false">Afficher le minuteur lors d\'une tentative de quiz</string>
+    <string name="show_notification">Afficher la notification du quiz</string>
+    <string name="show_notification_summary">Afficher une notification persistante lorsqu\'un quiz est en cours</string>
+    <string name="clear_attempts" translatable="false">Effacer les tentatives</string>
+    <string name="clear_attempts_summary" translatable="false">Efface toutes vos tentatives de l\'application et du cloud</string>
+    <string name="spread_word" translatable="false">Faire connaître</string>
+    <string name="rate_playstore" translatable="false">Évaluez-nous sur le Google Play Store</string>
+    <string name="spread_word_summary" translatable="false">Partagez l\'application avec vos contacts</string>
+    <string name="user_image">Image de l\'utilisateur</string>
+    <string name="app_version">Version de l\'application</string>
+    <string name="app_mode">Mode Sombre</string>
+    <string name="app_version_settings">Version de l\'application : %1$s</string>
+    <string name="settings_login" translatable="false">Connexion</string>
+    <string name="settings_login_summary" translatable="false">Cliquez ici pour vous connecter</string>
+    <string name="attempted_on">Horodatage : %1$s</string>
+</resources>

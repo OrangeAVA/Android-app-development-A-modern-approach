@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_base">#FF2C4058</color>
+    <color name="color_base_vary">#FF164B74</color>
+    <color name="color_base_vary_dull">#80164B74</color>
+    <color name="color_base_vary_alpha_50">#802C4058</color>
+    <color name="color_on_base">#FF164B74</color>
+    <color name="color_secondary">#FF242A40</color>
+    <color name="color_secondary_variant">#FF2A80C2</color>
+    <color name="color_secondary_variant_dull">#802A80C2</color>
+    <color name="color_on_secondary">#FFEFEFEF</color>
+    <color name="color_background">#FF242A40</color>
+    <color name="color_background_dull">#80242A40</color>
+
+    <color name="nav_item_selected">#FFFFFFFF</color>
+    <color name="nav_item_unselected">#50FFFFFF</color>
+
+    <color name="nav_bg_selected">#FF164B74</color>
+    <color name="nav_bg_unselected">#402A80C2</color>
+
+    <color name="quiz_bg">#FFCDDBE6</color>
+    <color name="attempt_bg_regular">#FF2C4058</color>
+    <color name="primary_light">#2C4058</color>
+    <color name="text_default">#FF121212</color>
+    <color name="text_contrast">#FFEFEFEF</color>
+    <color name="pref_bg">#FF242A40</color>
+
+    <color name="color_tertiary">#FF8E3D12</color>
+</resources>

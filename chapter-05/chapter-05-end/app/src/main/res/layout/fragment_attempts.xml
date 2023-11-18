@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.attempts.AttemptsFragment">
+
+    <TextView
+        android:id="@+id/lbl_sort_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/sort_by"
+        android:textColor="@color/text_contrast"
+        android:textSize="24sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sort_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/color_tertiary"
+        android:text="@string/txt_score"
+        android:textAllCaps="false"
+        android:textColor="@color/text_contrast"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lbl_sort_by"
+        app:layout_constraintStart_toEndOf="@+id/lbl_sort_by"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sort_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/color_tertiary"
+        android:text="@string/txt_date"
+        android:textAllCaps="false"
+        android:textColor="@color/text_contrast"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_sort_score"
+        app:layout_constraintStart_toEndOf="@+id/btn_sort_score"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sort_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/color_tertiary"
+        android:text="@string/txt_title"
+        android:textAllCaps="false"
+        android:textColor="@color/text_contrast"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_sort_date"
+        app:layout_constraintStart_toEndOf="@+id/btn_sort_date"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_attempt_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lbl_sort_by"
+        tools:itemCount="10"
+        tools:listitem="@layout/item_attempt" />
+</androidx.constraintlayout.widget.ConstraintLayout>

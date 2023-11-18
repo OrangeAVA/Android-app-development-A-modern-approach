@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/selected_tab_bottom_nav</item>
+        <item name="itemTextColor">@color/selected_tab_bottom_nav</item>
+        <item name="itemBackground">@drawable/bg_selected_tab_bottom_nav</item>
+    </style>
+</resources>

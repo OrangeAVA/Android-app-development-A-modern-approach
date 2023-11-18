@@ -1,0 +1,41 @@
+[versions]
+androidGradlePlugin = "8.1.2"
+androidx-junit = "1.1.5"
+appcompat = "1.6.1"
+constraintlayout = "2.1.4"
+core-ktx = "1.12.0"
+espresso-core = "3.5.1"
+google-hiltAndroid = "2.48.1"
+hiltCompiler = "1.1.0"
+junit = "4.13.2"
+lifecycle-livedata-ktx = "2.6.2"
+material = "1.10.0"
+navigation-fragment-ktx = "2.7.5"
+preference-ktx = "1.2.1"
+kotlin = "1.9.10"
+kotlin-kapt = "1.9.20"
+hiltAndroid = "2.48.1"
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hiltCompiler" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-junit" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-livedata-ktx" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preference-ktx" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "google-hiltAndroid" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "google-hiltAndroid" }
+hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "google-hiltAndroid" }
+junit = { module = "junit:junit", version.ref = "junit" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin-kapt" }
+hilt-android = {id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid"}
